@@ -1,0 +1,40 @@
+@font-face{ 
+    font-family: caveat;
+    src:url("Caveat-VariableFont_wght.ttf")format("truetype")
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+.headingFont {
+    font-family: "caveat", Courier, monospace;
+    color:antiquewhite;
+}
+
+.smallerFont {
+    font-family: monospace;
+    color:antiquewhite;
+    font-size: 20px
+}
+
+.paraFont {
+    font-family: monospace;
+    color:antiquewhite;
+    font-size: 30px
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+
+.boldlogo {
+    align-items: center;
+}

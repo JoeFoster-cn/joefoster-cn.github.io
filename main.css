@@ -19,9 +19,11 @@ body {
 
 
 .paraFont {
+    text-align: left;
     font-family: "News Cycle", Courier, monospace;
     color:antiquewhite;
-    font-size: 25px
+    font-size: 15px
+    
 }
 
 .center {

@@ -7,6 +7,11 @@
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=News+Cycle&display=swap');
 
+body {
+    position: relative;
+    padding: 40px;
+}
+
 .headingFont {
     font-family: "caveat", Courier, monospace;
     color:antiquewhite;
@@ -38,7 +43,7 @@ h3 {
 }
 
 .footer {
-    font-family: "Handlee&family", Courier, monospace;
+    font-family: "Handlee", Courier, monospace;
     text-align: center;
     color: bisque;
 }

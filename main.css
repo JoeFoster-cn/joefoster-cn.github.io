@@ -4,22 +4,19 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=News+Cycle&display=swap');
 
 .headingFont {
     font-family: "caveat", Courier, monospace;
     color:antiquewhite;
 }
 
-.smallerFont {
-    font-family: monospace;
-    color:antiquewhite;
-    font-size: 20px
-}
 
 .paraFont {
-    font-family: monospace;
+    font-family: "News Cycle", Courier, monospace;
     color:antiquewhite;
-    font-size: 30px
+    font-size: 25px
 }
 
 .center {
@@ -27,7 +24,7 @@
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 90px;
 }
 
 h3 {
@@ -37,4 +34,11 @@ h3 {
 
 .boldlogo {
     align-items: center;
+    size: 20%;
+}
+
+.footer {
+    font-family: "Handlee&family", Courier, monospace;
+    text-align: center;
+    color: bisque;
 }

@@ -161,7 +161,7 @@ a, a:visited, a:hover, a:active {
 
 }
 
-@media only screen and (min-width: 412px) and (max-width: 768px) {
+/*@media only screen and (min-width: 412px) and (max-width: 768px) {
 
     .welcome {
         text-align: center;
@@ -199,4 +199,4 @@ a, a:visited, a:hover, a:active {
         text-shadow: 10px;
     
     }
-}
+}*/

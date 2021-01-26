@@ -32,7 +32,7 @@ body {
     background: -o-linear-gradient(right, #2a59c7, #298854); 
     background: -moz-linear-gradient(right, #93B874, #C9DCB9); 
     background: linear-gradient(to right, #9fc0d4, #e2ebf0); 
-    background-color: #649e34; 
+    background-color: #7feef1; 
 }
 
 .mainpage {
@@ -144,7 +144,7 @@ a, a:visited, a:hover, a:active {
 
 .findoutmore {
 
-    background-image: url(/github-pages/github-page/joefoster-cn.github.io/img/img3.jpg);
+    background-image: url(./img/img3.jpg);
     background-size: 100%;
     background-blend-mode: hard-light;
     font-family: "caveat", Courier, monospace;

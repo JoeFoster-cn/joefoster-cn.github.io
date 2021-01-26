@@ -4,48 +4,154 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');*/
-@import url('https://fonts.googleapis.com/css2?family=Handlee&family=News+Cycle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+html {
+    min-height: 100%;
+}
+
+/*icons*/
+i {
+    color: burlywood;
+
+}
+
+/*links*/
+.a {
+    text-decoration: none;
+}
+
+/*body background*/
 body {
     position: relative;
-    padding: 40px;
+    padding: 0px;
+    background: -webkit-linear-gradient(left, #cfd9df, #e2ebf0); 
+    background: -o-linear-gradient(right, #2a59c7, #298854); 
+    background: -moz-linear-gradient(right, #93B874, #C9DCB9); 
+    background: linear-gradient(to right, #9fc0d4, #e2ebf0); 
+    background-color: #649e34; 
 }
 
+.mainpage {
+    display: flex;
+    flex-direction: column;
+}
+
+/*nav list*/
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style-type: none;
+    height: 0px;
+    padding: 20px;
+ 
+  }
+
+ /*welcome hello*/ 
 .headingFont {
     font-family: "caveat", Courier, monospace;
-    color:antiquewhite;
-}
-
-
-.paraFont {
+    color: cadetblue;
     text-align: left;
-    font-family: "Handlee", Courier, monospace;
-    color:antiquewhite;
-    font-size: 15px
+    font-size: 80px;
+    text-shadow:1px 1px 1px #020202;
+    padding-bottom: 0%;
     
 }
 
-.center {
+.header {
+    align-items: center;
+    size: 100%;
+}
+
+.gif {
+    height: 300px;
+    width: 300px;
+}
+
+
+.welcome {
+    text-align: center;
+    font-family: "caveat", Courier, monospace;
+    color: cadetblue;
+    font-size: 120px;
+    text-shadow:1px 1px 1px #020202;
+    padding-top: 0%;
+}
+
+.codeNationLogo {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid cadetblue;
+    border-radius: 10%;
+    padding: 40px;
+}
+
+.about {
+    font-family: "caveat";
+    font-size: 70px;
+    color: cadetblue;
+    padding-top: 40px;
+    padding-bottom: 0;
+    text-shadow:1px 1px 1px #000000;
     text-align: center;
 }
 
-h1 {
+.about > p > a {
     font-size: 70px;
+}
+
+.boldLogo {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid cadetblue;
+    border-radius: 10%;
+    padding: 0;
+}
+
+.navbar > ul {
+    align-items: right;
+}
+
+.navbar > ul > li {
+    padding: 5px;
+    text-shadow:1px 1px 1px #020202;
+    text-align: center;
+    border: 4px solid cadetblue;
+    border-radius: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 10%;
+    float: right;
+}
+
+h1 {
+    font-size: 100px;
+    color: cadetblue;
+    text-shadow:1px 1px 1px #020202;
 }
 
 h3 {
     font-size: 60px;
 }
 
-
-.boldlogo {
-    align-items: center;
-    size: 20%;
+a, a:visited, a:hover, a:active {
+    font-family: "caveat";
+    text-decoration: none;
+    color:rgb(70, 100, 100);
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 200;
+    text-shadow: 10px;
+    
 }
 
-.footer {
-    font-family: "Handlee", Courier, monospace;
+
+
+.findoutmore {
+    font-family: "caveat", Courier, monospace;
+    color: cadetblue;
     text-align: center;
-    color: bisque;
+    text-decoration: none;
 }

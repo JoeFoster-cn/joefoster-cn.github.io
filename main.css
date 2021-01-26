@@ -229,8 +229,7 @@ a, a:visited, a:hover, a:active {
     }
 
     .findoutmore {
-
-        background-size: 100%;
+        background-size: cover;
         background-blend-mode: hard-light;
         font-family: "caveat", Courier, monospace;
         color: cadetblue;

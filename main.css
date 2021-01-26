@@ -13,7 +13,9 @@ html {
 
 /*icons*/
 i {
-    color: burlywood;
+    font-size: 200%;
+    padding: 0%;
+    color: rgb(8, 5, 0);
 
 }
 
@@ -45,12 +47,12 @@ ul {
     align-items: flex-end;
     list-style-type: none;
     height: 0px;
-    padding: 20px;
+    padding: 40px;
  
   }
 
  /*welcome hello*/ 
-.headingFont {
+/**.headingFont {
     font-family: "caveat", Courier, monospace;
     color: cadetblue;
     text-align: left;
@@ -58,26 +60,22 @@ ul {
     text-shadow:1px 1px 1px #020202;
     padding-bottom: 0%;
     
-}
+}*/
 
 .header {
     align-items: center;
     size: 100%;
 }
 
-.gif {
-    height: 300px;
-    width: 300px;
-}
 
 
 .welcome {
     text-align: center;
     font-family: "caveat", Courier, monospace;
-    color: cadetblue;
+    color: rgb(120, 196, 196);
     font-size: 120px;
-    text-shadow:1px 1px 1px #020202;
-    padding-top: 0%;
+    text-shadow:4px 4px 4px #020202;
+    padding-top: 5%;
 }
 
 .codeNationLogo {
@@ -90,10 +88,10 @@ ul {
 
 .about {
     font-family: "caveat";
-    font-size: 70px;
+    font-size: 60px;
     color: cadetblue;
     padding-top: 40px;
-    padding-bottom: 0;
+    padding-bottom: 40px;
     text-shadow:1px 1px 1px #000000;
     text-align: center;
 }
@@ -108,22 +106,18 @@ ul {
     border: 4px solid cadetblue;
     border-radius: 10%;
     padding: 0;
+    
 }
 
-.navbar > ul {
-    align-items: right;
-}
 
 .navbar > ul > li {
-    padding: 5px;
+    padding: 15px;
     text-shadow:1px 1px 1px #020202;
     text-align: center;
-    border: 4px solid cadetblue;
-    border-radius: 10%;
     padding-left: 0%;
     padding-right: 0%;
     width: 10%;
-    float: right;
+ 
 }
 
 h1 {
@@ -141,17 +135,68 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
     color:rgb(70, 100, 100);
     cursor: pointer;
-    font-size: 40px;
-    font-weight: 200;
-    text-shadow: 10px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #020202;
     
 }
 
 
 
 .findoutmore {
+
+    background-image: url(/github-pages/github-page/joefoster-cn.github.io/img/img3.jpg);
+    background-size: 100%;
+    background-blend-mode: hard-light;
     font-family: "caveat", Courier, monospace;
     color: cadetblue;
     text-align: center;
     text-decoration: none;
+    border: cadetblue solid 4px;
+    border-radius: 10%;
+    padding: 10%;
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1000px)  {
+
+}
+
+@media only screen and (min-width: 412px) and (max-width: 768px) {
+
+    .welcome {
+        text-align: center;
+        font-family: "caveat", Courier, monospace;
+        color: rgb(120, 196, 196);
+        font-size: 100px;
+        text-shadow:4px 4px 4px #020202;
+        padding-top: 10%;
+    }
+
+    .navbar > ul {
+        align-items: right;
+    }
+
+    .navbar > ul > li {
+  
+        padding: 0px;
+        text-shadow:1px 1px 1px #020202;
+        text-align: center;
+        border: 4px solid cadetblue;
+        border-radius: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+        width: 10%;
+        float: right;
+    }
+
+    a, a:visited, a:hover, a:active {
+        font-family: "caveat";
+        text-decoration: none;
+        color:cadetblue;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 200;
+        text-shadow: 10px;
+    
+    }
 }

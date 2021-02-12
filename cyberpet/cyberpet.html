@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cyberpet.css">
+    <title>Cyberpet</title>
+</head>
+
+<body>
+
+    <h1 id="heading">CyberPet</h1>
+    <button id="restart">New Game</button>
+
+    <div class="startButtons">
+        <button id="choose">Click here to choose your CyberPet</button>
+    </div>
+
+
+
+    <div class="gamearea" div style="width:1200px; margin:0 auto;">
+
+        <div class="petImg">
+            <img id="dogImg" src="./img/petImg1.jpg">
+            <img id="catImg" src="./img/petImg2.jpg">
+            <img id="rabImg" src="./img/petImg3.jpg">
+        </div>
+
+        <div class="petImg2 bounce">
+            <img id="dogImg2" src="./img/dog2.jpg">
+            <img id="catImg2" src="./img/cat2.png" width="30%" height="30%">
+            <img id="rabImg2" src="./img/rabbit2.jpg" width="30%" height="30%">
+        </div>
+
+        <div class="info">
+            <p id="selectDog">Woof! You've chosen a dog as your CyberPet.. now what is it's name?</p>
+            <p id="selectCat">Great choice! You've chosen a cat as your CyberPet.. now what is it's name?</p>
+            <p id="selectRab">So cute! You've chosen a rabbit as your CyberPet.. now what is it's name?</p>
+            <input id="input" type="text">
+            <button id="submit">submit</button>
+        </div>
+
+        <div class="progress">
+            <label for="hunger">Hunger</label>
+            <progress id="hunger" value="10" max="100"></progress>
+            <label for="thirst">Thirst</label>
+            <progress id="thirst" value="10" max="100"></progress>
+            <label for="happiness">Happiness</label>
+            <progress id="happiness" value="10" max="100"></progress>
+        </div>
+
+        <div class="game">
+            <div class="petButtons">
+                <p id="placeholder">Name</p>
+                <button id="feed">Feed</button>
+                <button id="drink">Give drink</button>
+                <button id="play">Play</button>
+            </div>
+
+            <div class="dogButtons">
+                <button id="walk">Walk</button>
+                <button id="bath">Bath</button>
+            </div>
+
+            <div class="catButtons">
+                <button id="brush">Brush</button>
+                <button id="cuddle">Cuddle</button>
+            </div>
+
+            <div class="rabButtons">
+                <button id="clean">Clean</button>
+                <button id="carrot">Give carrot</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="cyberpet.js"></script>
+    <script src="cyberpetui.js"></script>
+
+</body>
+
+</html>

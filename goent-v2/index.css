@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Josefin Sans";
+    font-size: 17px;
+    color: #131212;
+    line-height: 1.6;
+}
+
+#gologo {
+    width:200px; /* you can use % */
+    height: auto;
+}
+
+.text {
+    margin: 30px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+    border: 1px solid black;
+    height: 50vh;
+}
+
+i {
+    font-size: 50px;
+    padding: 5%;
+}
+
+.text h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+}
+
+.text p {
+    margin: 5%;
+    font-weight: bolder;
+    color: black;
+}
+
+.text #button {
+    margin: 5%;
+    font-weight: bolder;
+    color: black;
+}
+
+#showcase {
+    background-image: url('../goent-v2/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    opacity: 1;
+}
+
+#showcase p {
+    font-size: 20px;
+    font-family: "Architects Daughter";
+}
+
+#showcase .button {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(22, 23, 24);
+    border: rgb(26, 26, 27) 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover {
+    background: black;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 460px) {
+    #showcase h1 {
+        font-size: 30px;
+    }
+    
+    #showcase p {
+        font-size: 10px;
+    }
+    .text {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 414px) {
+#showcase .button {
+    background: black;
+    color: whitesmoke;
+}
+}
